@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Cookies cookies yum yum</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans" >
+ <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+ <link rel="stylesheet" href="CookieProject.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <h1>Choose Your Cookies</h1>
+  <div class="hero-image">
+
+
+</div>
+    <div>
+      <div class='cookie-block'>
+        <strong>Sugar</strong>
+        <div class='counter' id='num_sugar'>0</div>
+        <button onclick='eat("sugar")'>+</button>
+        <img src="https://modestmunchy.files.wordpress.com/2012/09/date-macarons.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
+      </div>
+      <div class='cookie-block'>
+        <strong>Chocolate</strong>
+        <div class='counter' id='num_chocolate'>0</div>
+        <button onclick='eat("chocolate")'>+</button>
+          <img src="http://www.insiderfrance.com/wp-content/uploads/2014/01/IMG_2156.jpg" alt="Mountain View" style="width:304px;height:228px;">
+      </div>
+      <div class='cookie-block'>
+        <strong>Lemon</strong>
+        <div class='counter' id='num_lemon'>0</div>
+        <button onclick='eat("lemon")'>+</button>
+        <img src="https://lifemadesweeter.com/wp-content/uploads/Lemon-French-Macarons-filled-with-coconut-buttercream-make-the-perfect-sunny-treat1-467x700.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
+      </div>
+    </div>
+
+    <button onclick='clearCookies(); updateAll();'>clear</button>
+<script src='cookieLibrary.js'></script>
+    <script src='CookieProject.js'></script>
+
+
+  </body>
+</html>
